@@ -15,13 +15,19 @@ function App(name,memory,state){
 
     };
     this.sleep = function(){
-      if this.state = "active"
+      if (this.state) == "active"
 
     }
 
     this.active = function(){
+      if (this.state == "sleep")
+      (this.state = "active")
+      (this.memory = this.memory*2;)
 
-      
+    }
+    this.close = function(){
+      if(this.state = null)
+
     }
     //Declare the instance function sleep here.
 
